@@ -1,0 +1,23 @@
+const product=[
+    {
+        _id:21,
+        name:"lenovo"
+    },
+    {
+        _id:31,
+        name:"lenovo"
+    },
+    {
+        _id:41,
+        name:"lenovo"
+    },
+    {
+        _id:51,
+        name:"lenovo"
+    },
+    {
+        _id:61,
+        name:"lenovo"
+    },
+]
+module.exports=product;

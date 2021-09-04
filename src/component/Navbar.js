@@ -3,10 +3,9 @@ import { Link } from 'react-router-dom'
 import "./navbar.css"
 export default function Navbar() {
     return (
-        <nav class="navbar navbar-light bgdar sticky-top ">
+        <nav class="navbar navbar-light bg-dark sticky-top ">
             <div class="container-fluid ">
-                <h1 className="logo">Shopping_WORLD</h1>
-
+                <h1 className="logo mb-0 text-light">Shopping</h1>
                 <div className="d-md-flex d-none ms-auto">
                 <ul class="navbar-nav justify-content-end flex-grow-1 flex-row">
                     <li class="nav-item m-3">
@@ -19,7 +18,7 @@ export default function Navbar() {
                 </div>
 
                 <button class="navbar-toggler d-md-none d-flex" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon bgdar"></span>
                 </button>
 
                 

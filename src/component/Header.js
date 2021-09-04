@@ -1,5 +1,7 @@
 import React from 'react'
-import image from '../data/bgimage.jpg'
+import image1 from '../data/headphone.jpg'
+import image2 from '../data/watches.jpg'
+import image3 from '../data/phone.jpg'
 import "./header.css"
 export default function Main() {
     return (
@@ -11,21 +13,21 @@ export default function Main() {
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={image }  class="d-block w-100 imgheight" alt="..."  />
+                    <img src={image1 }  class="d-block w-100 imgheight" alt="..."  />
                     <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src={image }  class="d-block w-100 imgheight" alt="..."  />
+                    <img src={image3 }  class="d-block w-100 imgheight" alt="..."  />
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Second slide label</h5>
                         <p>Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src={image }  class="d-block w-100 imgheight" alt="..." />
+                    <img src={image2 }  class="d-block w-100 imgheight" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
                         <p>Some representative placeholder content for the third slide.</p>

@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import "./navbar.css"
 export default function Navbar() {
     return (
-        <nav class="navbar navbar-light bgdar fixed-top ">
+        <nav class="navbar navbar-light bgdar sticky-top ">
             <div class="container-fluid ">
-                <h1 className="logo">offcanvas</h1>
+                <h1 className="logo">Shopping_WORLD</h1>
 
                 <div className="d-md-flex d-none ms-auto">
                 <ul class="navbar-nav justify-content-end flex-grow-1 flex-row">

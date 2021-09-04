@@ -13,6 +13,9 @@ export default function Main() {
                     responseData.map((data)=>(
                         <div key={data}>
                             <Cardlist image={image} />
+                            <Cardlist image={image} />
+                            <Cardlist image={image} />
+                            <Cardlist image={image} />
                         </div>
                     ))
                 }

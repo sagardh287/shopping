@@ -1,11 +1,12 @@
 import React from 'react'
+import Homescreen from './screen/Homescreen';
 
 
 
 function App() {
     return (
         <div>
-            <h1>sagar</h1>
+            <Homescreen/>
         </div>
     )
 }

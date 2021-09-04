@@ -29,12 +29,12 @@ export default function Main() {
        },
        {
            id:"4",
-           name:"soundbox1",
+           name:"soundbox",
             image:image4
        },
        {
         id:"5",
-        name:"soundbox1",
+        name:"soundbox",
         image:image5
     },
     {
@@ -45,8 +45,8 @@ export default function Main() {
     ])
     },[])
     return (
-        <div className="container mb-3">
-            <div class="row row-cols-2 row-cols-md-5 g-4">
+        <div className="container  bg-dark">
+            <div class="row row-cols-2 row-cols-md-5 g-4 pb-3 pt-1">
                 {/* <Cardlist image={image}/> */}
                 {
                     responseData.map((data)=>(

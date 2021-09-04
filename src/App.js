@@ -6,7 +6,8 @@ import Homescreen from './screen/Homescreen';
 function App() {
     return (
         <div>
-            <Homescreen/>
+            {/* <Homescreen/> */}
+            <h1>sagar</h1>
         </div>
     )
 }

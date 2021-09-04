@@ -1,6 +1,11 @@
 import React,{useEffect, useState} from 'react'
 import Cardlist from '../component/Cardlist'
-import image from '../data/bgimage.jpg'
+import image1 from '../data/selldata/iphone.jpg'
+import image3 from '../data/selldata/trimmer.jpg'
+import image2 from '../data/selldata/bracelet1.jpg'
+import image6 from '../data/selldata/bracelet.jpg'
+import image5 from '../data/selldata/soundbox1.jpg'
+import image4 from '../data/selldata/soundbox.jpeg'
 
 export default function Main() {
     const [responseData,setResponseData]=useState([])
@@ -9,23 +14,33 @@ export default function Main() {
     useEffect(()=>{
         setResponseData([{
             id:"1",
-            name:"sagar"
+            name:"iPhone",
+            image:image1
         }
         ,{
             id:"2",
-           name:"sagar"
+           name:"bracelet",
+           image:image2
        },
        {
            id:"3",
-           name:"sagar"
+           name:"trimmer",
+           image:image3
        },
        {
            id:"4",
-           name:"sagar"
+           name:"soundbox1",
+            image:image4
        },
        {
         id:"5",
-        name:"sagar"
+        name:"soundbox1",
+        image:image5
+    },
+    {
+     id:"6",
+     name:"bracelet",
+     image:image6
     }
     ])
     },[])
@@ -36,7 +51,7 @@ export default function Main() {
                 {
                     responseData.map((data)=>(
                         <div key={data.id}>
-                            <Cardlist image={image} />
+                            <Cardlist image={data.image} name={data.name}/>
                         </div>
                     ))
                 }

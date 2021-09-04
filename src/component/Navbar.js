@@ -6,10 +6,11 @@ export default function Navbar() {
         <nav class="navbar navbar-light bgdar fixed-top ">
             <div class="container-fluid ">
                 <h1 className="logo">offcanvas</h1>
+
                 <div className="d-md-flex d-none ms-auto">
                 <ul class="navbar-nav justify-content-end flex-grow-1 flex-row">
                     <li class="nav-item m-3">
-                        <Link class="nav-link" aria-current="page" href="#"><sapan>Home</sapan></Link>
+                        <Link class="nav-link" aria-current="page" ><sapan>Home</sapan></Link>
                     </li>
                     <li class="nav-item m-3">
                         <Link class="nav-link" ><sapan>Home</sapan></Link>
@@ -27,10 +28,11 @@ export default function Navbar() {
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
+                    
                     <div class="offcanvas-body align-items-center">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" href="#">Home</Link>
+                                <Link class="nav-link active" aria-current="page" >Home</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link" >Link</Link>

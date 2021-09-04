@@ -10,10 +10,10 @@ export default function Navbar() {
                 <div className="d-md-flex d-none ms-auto">
                 <ul class="navbar-nav justify-content-end flex-grow-1 flex-row">
                     <li class="nav-item m-3">
-                        <Link class="nav-link" aria-current="page" ><sapan>Home</sapan></Link>
+                        <Link class="nav-link" to="/" aria-current="page" ><span>Home</span></Link>
                     </li>
                     <li class="nav-item m-3">
-                        <Link class="nav-link" ><sapan>Home</sapan></Link>
+                        <Link class="nav-link" to="/" ><span>Home</span></Link>
                     </li>
                 </ul>
                 </div>
@@ -23,19 +23,19 @@ export default function Navbar() {
                 </button>
 
                 
-                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas offcanvas-start"  id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    
+
                     <div class="offcanvas-body align-items-center">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" >Home</Link>
+                                <Link class="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" >Link</Link>
+                                <Link class="nav-link" to="/" >Link</Link>
                             </li>
                         </ul>
                     </div>

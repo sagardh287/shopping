@@ -1,16 +1,14 @@
-import './App.css';
-import Homescreen from './screen/Homescreen';
-import {BrowserRouter as Router } from "react-router-dom"
+import React from 'react'
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <h1>sagar</h1>
-      <Router>
-      <Homescreen/>
-      </Router>
-    </div>
-  );
+    return (
+        <div>
+            
+        </div>
+    )
 }
+
 
 export default App;

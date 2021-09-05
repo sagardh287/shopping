@@ -1,8 +1,45 @@
 .bgdar{
     background-color: rgba(242, 242, 242, 0.9);
-  border-radius: 5px;
+    border-radius: 5px;
 }
 .logo{
     color: black;
     text-transform: uppercase;
+}
+.offback{
+  width: 50% !important;
+  background-color: gray !important;
+  padding-right: 0%;
+}
+.navtitle{
+  background-color: rgb(39, 37, 37);
+  height: 3.5rem;
+  color: white;
+  text-transform: uppercase;
+}
+.navcontent{
+  width: 100%;
+}
+.navul{
+  text-align: center;
+  width: 100%;
+  margin-top: 1rem;
+  padding-right: 0%;
+}
+.navlist{
+  margin-bottom: 10px;
+}
+.navlist > .navlink{
+  
+  background-color: rgb(39, 37, 37);
+  color: white !important;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.2rem 0.2rem;
+  border-radius: 2rem;
+}
+.navlink:hover{
+  background-color: white;
+  color: black !important;
 }

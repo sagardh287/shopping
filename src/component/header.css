@@ -1,6 +1,4 @@
- .heightset{
-    background-color: red;
-}
+
  @media (max-width:765px) {
     .imgheight{
         height: 250px;

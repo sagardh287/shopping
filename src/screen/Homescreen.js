@@ -6,7 +6,7 @@ import Main from './Main'
 
 export default function Homescreen() {
     return (
-        <div  className="bg-gradient">
+        <div  className="">
         <Navbar/>
         <Header/>
         <Main/>

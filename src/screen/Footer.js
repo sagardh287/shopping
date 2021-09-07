@@ -6,22 +6,22 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
     const link="http://www.google.com"
     return (
-        <div className="container p-2 bg-success">
-            <div className="row">
-                <div className="col-md-6 d-flex flex-md-row justify-content-center">
-                    <ul className="list-unstyled d-flex flex-sm-row flex-md-column">
+        <div className="container-fluid mt-3 pb-3 pt-3 bg-success">
+            <div className="row justify-content-center">
+                <div className="col-md-6 d-flex flex-md-row justify-content-evenly">
+                    <ul className="list-unstyled d-flex flex-sm-row ">
                         <li className="">
-                            <Link className="nav-link navlink" to={{pathname:link}} target="_blank" >
+                            <Link className="nav-link navlink text-light" to={{pathname:link}} target="_blank" >
                                 Home
                             </Link>
                         </li>
                         <li className="">
-                            <Link className="nav-link navlink" to="">
+                            <Link className="nav-link navlink text-light" to="">
                                 Product
                             </Link>
                         </li>
                         <li className="">
-                            <Link className="nav-link navlink" to="">
+                            <Link className="nav-link navlink text-light" to="">
                                 Contact Us
                             </Link>
                         </li>

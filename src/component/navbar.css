@@ -1,10 +1,27 @@
-.bgdar{
-    background-color: rgba(242, 242, 242, 0.9);
-    border-radius: 5px;
+.navbar{
+  padding-top: 0% !important;
+  padding-bottom: 0% !important; 
+  opacity: 0.7;
 }
 .logo{
     color: black;
     text-transform: uppercase;
+}
+
+.navliststyle{
+  padding:0 0.5rem;
+}
+.navliststylelink{
+  color: white !important;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 2rem;
+}
+.navliststyle:hover{
+  background-color: rgb(78, 74, 74);
+  border-radius: 5px;
+
 }
 .offback{
   width: 50% !important;
@@ -42,4 +59,23 @@
 .navlink:hover{
   background-color: white;
   color: black !important;
+}
+
+.navdrops{
+  display: none;
+  position: absolute;
+  border-radius: 1rem;
+  z-index: 100;
+}
+
+.dropitem:hover > .navdrops{
+  display: flex ;
+}
+
+@media (max-width:765px) {
+.navbar{
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important; 
+  opacity: 1;
+}  
 }

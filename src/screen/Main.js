@@ -9,12 +9,12 @@ export default function Main() {
         setResponseData(product)
     },[])
     return (
-        <div className="container bg-dark bgset">
-            <div class="row row-cols-2 row-cols-md-5 g-4 pb-3 pt-1">
+        <div className="container bg-dark bgset mt-4">
+            <div class="row row-cols-2 row-cols-md-5 g-4 pb-3 pt-1 border-top">
                 {
                     responseData.map((data)=>(
                         <div key={data.id}>
-                            <Cardlist image={data.image} name={data.name}/>
+                            <Cardlist image={data.image} name={data.name} link={data.Link} price={data.price}/>
                         </div>
                     ))
                 }

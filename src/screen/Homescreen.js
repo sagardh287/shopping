@@ -1,17 +1,16 @@
 import React from 'react'
-import Navbar from '../component/Navbar'
 import Header from '../component/Header'
 import Footer from './Footer'
 import Main from './Main'
 import "./Main.css"
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 export default function Homescreen() {
     return (
         <div className="">
-            <Navbar />
-            <Header />
-            <ul class="navbar-nav justify-content-center flex-grow-1 flex-row mb-5 bg-dark">
+            
+            <Header/>
+            {/* <ul class="navbar-nav justify-content-center flex-grow-1 flex-row mb-5 bg-dark">
 
                 <li class="nav-item navliststyle dropitem ">
                     <Link class="nav-link navliststylelink" to="/" ><span>Product</span></Link>
@@ -36,7 +35,7 @@ export default function Homescreen() {
                         </ul>
                     </div>
                 </li>
-            </ul>
+            </ul> */}
             <Main />
             <Footer />
         </div>

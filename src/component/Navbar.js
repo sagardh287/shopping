@@ -8,23 +8,26 @@ export default function Navbar() {
                 <h1 className="logo text-light">Shopping</h1>
                 <div className="d-md-flex d-none ms-auto">
                     <ul class="navbar-nav justify-content-end flex-grow-1 flex-row">
-                        <li class="nav-item m-3 navliststyle dropitem">
-                            <Link class="nav-link navliststylelink " to="/" ><span>Product</span></Link>
-                            <div className="navdrops">
+                    <li class="nav-item mt-3 mb-3 navliststyle ">
+                                <Link class="nav-link navliststylelink" to="/">Home</Link>
+                            </li>
+                        <li class="nav-item mt-3 mb-3 navliststyle ">
+                            <Link class="nav-link navliststylelink " to="/product" ><span>Product</span></Link>
+                            {/* <div className="navdrops">
                                 <ul className="navbar-nav">
                                     <li class="nav-item navdropliststyle">
-                                        <Link class="nav-link navlistdroplink" to="/" ><span>sam</span></Link>
+                                        <Link class="nav-link navlistdroplink" to="/" ><span>Ḥome</span></Link>
 
                                     </li>
                                     <li class="nav-item  navdropliststyle">
-                                        <Link class="nav-link navlistdroplink" to="/" ><span>desai</span></Link>
+                                        <Link class="nav-link navlistdroplink" to="/product" ><span>Product</span></Link>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </li>
-                        <li class="nav-item m-3 navliststyle">
+                        {/* <li class="nav-item m-3 navliststyle">
                             <Link class="nav-link navliststylelink" to="/" ><span>Contact Us</span></Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
 
@@ -36,7 +39,7 @@ export default function Navbar() {
                 <div className="offcanvas offcanvas-start offback" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header navtitle">
                         <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Shopping</h5>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <button type="button" class="btn-close text-reset bg-primary" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
 
                     <div class="offcanvas-body navcontent p-0">
@@ -44,12 +47,12 @@ export default function Navbar() {
                             <li class="nav-item navlist">
                                 <Link class="nav-link pt-1 pb-1 navlink" to="/">Home</Link>
                             </li>
-                            <li class="nav-item navlist ">
-                                <Link class="nav-link navlink" to="/" >Product</Link>
+                            <li class="nav-item navlist">
+                                <Link class="nav-link navlink" to="/product" >Product</Link>
                             </li>
-                            <li class="nav-item navlist ">
+                            {/* <li class="nav-item navlist ">
                                 <Link class="nav-link navlink" to="/" >Contact us</Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

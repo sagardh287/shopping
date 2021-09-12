@@ -26,6 +26,11 @@ export default function Navbar() {
                                 </ul>
                             </div> */}
                         </li>
+                        <div  class="mt-auto d-flex flex-column  align-items-center  bg-dark">
+                        <img src={sagar} className="img-fluid developerpicture1 " alt="developer"/>
+                                <p className=" developertext1 mb-0 ">Developer</p>
+                                {/* <p className=" developertext1 mb-0">Sagar</p> */}
+                        </div>
                         {/* <li class="nav-item m-3 navliststyle">
                             <Link class="nav-link navliststylelink" to="/" ><span>Contact Us</span></Link>
                         </li> */}

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Cardlist({image, name ,link, price}) {
+export default function Cardlist({image, name ,link, price , status}) {
 
     return (
     
@@ -12,6 +12,7 @@ export default function Cardlist({image, name ,link, price}) {
                         <h5 class="card-title m-0 p-0">{name}</h5>
                         <p class="card-text p-0 m-0 "> {price}</p>
                         <p class="card-text m-0 p-0">5%-25% off</p>
+                        <p class="card-text m-0 p-0 fw-bold bg-info">{status}</p>
                     </div>
                     <div class="card-footer text-center ">
                         {/* <small class="text-muted m-0 p-0">3m ago</small> */}

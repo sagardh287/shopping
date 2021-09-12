@@ -1,6 +1,10 @@
+@media(max-width:765px){
+
 .navlinks{
     font-size: 0.8rem;
     text-decoration: none;
     color: rgb(32, 27, 27);
     font-weight: 400;
+}
+
 }

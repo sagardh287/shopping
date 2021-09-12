@@ -14,7 +14,7 @@ export default function Main() {
                 {
                     responseData.map((data)=>(
                         <div key={data.id}>
-                            <Cardlist image={data.image} name={data.name} link={data.Link} price={data.price}/>
+                            <Cardlist image={data.image} name={data.name} link={data.Link} price={data.price} status={data.status}/>
                         </div>
                     ))
                 }

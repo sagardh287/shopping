@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import sagar from "../data/sagar.png"
 import "./navbar.css"
 export default function Navbar() {
     return (
@@ -39,21 +40,26 @@ export default function Navbar() {
                 <div className="offcanvas offcanvas-start offback" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header navtitle">
                         <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Shopping</h5>
-                        <button type="button" class="btn-close text-reset bg-primary" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <button type="button" class="btn-close  closebtn p-2" data-bs-dismiss="offcanvas"></button>
                     </div>
 
-                    <div class="offcanvas-body navcontent p-0">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 navul">
+                    <div class="offcanvas-body navcontent p-0 bg-danger d-flex flex-column">
+                        <ul class="navbar-nav navul">
                             <li class="nav-item navlist">
                                 <Link class="nav-link pt-1 pb-1 navlink" to="/">Home</Link>
                             </li>
                             <li class="nav-item navlist">
                                 <Link class="nav-link navlink" to="/product" >Product</Link>
                             </li>
-                            {/* <li class="nav-item navlist ">
-                                <Link class="nav-link navlink" to="/" >Contact us</Link>
+                            {/* <li class="nav-item navlist bg-black ">
+                               
                             </li> */}
                         </ul>
+                        <div  class="mt-auto mb-3  d-flex flex-column  align-items-center  bg-dark">
+                        <img src={sagar} className="img-fluid developerpicture " alt="developer"/>
+                                <p className=" developertext1 mb-0 ">Developer</p>
+                                {/* <p className=" developertext1 mb-0">Sagar</p> */}
+                        </div>
                     </div>
                 </div>
             </div>

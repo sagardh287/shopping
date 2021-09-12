@@ -17,7 +17,7 @@ const product = [
         image: image1,
         // Link:"",
         price:"below 200rs",
-        status:"Sell hua"
+        status:"SOLD(sell hua)"
     }, 
     {
         id: "2",
@@ -33,8 +33,7 @@ const product = [
         image: image3,
         // Link:"",
         price:"below 500rs",
-        status:"sell hua"
-    },
+        status:"SOLD(sell hua)"    },
     {
         id: "4",
         name: "pTron lite",
@@ -73,29 +72,28 @@ const product = [
         image: image8,
         // Link:"",
         price:"below 1150rs",
-        status:"sell hua"
-    },
+        status:"SOLD(sell hua)"    },
     {
         id: "9",
         name: "Zebronics ",
         image: image9,
         // Link:"",
         price:"below 600rs",
-        status:"sell hua"
-    },
+        status:"SOLD(sell hua)"   
+     },
     {
         id: "10",
         name: "boat base" ,
         image: image10,
         price:"below 400rs",
-        status:"sell hua"
+        status:"SOLD(sell hua)"    
     },
     {
         id: "11",
         name: "limeshot",
         image: image11,
         price:"below 400rs",
-        status:"sell hua"
+        status:"SOLD(sell hua)"    
     },
 
 ]

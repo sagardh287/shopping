@@ -1,0 +1,22 @@
+.imgblock{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.cardimage{
+    height: 150px !important;
+    width: 120px !important;
+}
+.buttonstyle{
+}
+/* @media(max-width:765px){
+    .imgblock{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .image{
+        height: 150px;
+        width: 120px;
+    }
+} */

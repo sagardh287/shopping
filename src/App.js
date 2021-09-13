@@ -15,7 +15,6 @@ function App() {
                     <Homescreen />
                 </Route>
                 <Route path="/product">
-                
                     <Main />
                 </Route>
             </Router>
